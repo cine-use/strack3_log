@@ -1,0 +1,25 @@
+{
+	"require": {
+		"tmtbe/swooledistributed": "3.6.5",
+		"hassankhan/config":"1.1.0",
+		"robmorgan/phinx": "^0.10.6",
+		"webpatser/laravel-uuid": "^3.0",
+		"aileshe/upload": "^v0.1.2",
+		"toohamster/ws-http" : "1.0.2",
+		"phpmailer/phpmailer": "v6.0.5",
+		"twig/twig": "v2.5.0",
+		"overtrue/wechat": "~4.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"app\\": "src/app",
+			"test\\": "src/test"
+		},
+		"files": [
+			"src/app/Common.php"
+		]
+	},
+	"config" : {
+		"secure-http": false
+	}
+}
